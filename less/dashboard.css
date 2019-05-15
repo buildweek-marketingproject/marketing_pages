@@ -217,6 +217,7 @@ textarea {
   width: 15%;
   height: 800px;
   background-color: white;
+  cursor: pointer;
 }
 .main_container .middle_container .side_navigation li {
   text-align: center;
