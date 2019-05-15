@@ -145,7 +145,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../css/img/baim-hanif-89800-unsplash.jpg");
+  background-image: url("../css/img/vasily-koloda-620886-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -154,7 +154,7 @@ h5 {
 .container .form {
   width: 30%;
   height: 50%;
-  background-color: rgba(76, 76, 216, 0.7);
+  background-color: rgba(76, 76, 216, 0.9);
   display: flex;
   justify-content: center;
   flex-direction: column;
