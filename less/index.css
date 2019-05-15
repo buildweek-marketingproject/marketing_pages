@@ -145,7 +145,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../css/img/baim-hanif-89800-unsplash.jpg");
+  background-image: url("../css/img/vasily-koloda-620886-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -154,13 +154,19 @@ textarea {
 .main_container .sign_up {
   width: 30%;
   height: 500px;
-  background-color: rgba(76, 76, 216, 0.7);
+  background-color: rgba(76, 76, 216, 0.9);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border-radius: 0.5em;
   border: solid 1px rgba(255, 255, 255, 0.15);
+}
+.main_container .sign_up label {
+  color: white;
+}
+.main_container .sign_up span {
+  color: white;
 }
 .main_container .sign_up .firstname {
   width: 350px;
