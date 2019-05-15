@@ -237,9 +237,11 @@ textarea {
 }
 .main_container .middle_container .information_container .issues p {
   color: blue;
+  font-size: 14pt;
 }
 .main_container .middle_container .information_container .issues span {
   color: blue;
+  font-size: 14pt;
 }
 .main_container .middle_container .information_container .issues .new_issue {
   height: 100px;
