@@ -23,10 +23,11 @@
 </head>
 
 <body>
+
     <div class="main_container">
         <section class="top_container">
             <section class="navigation_container">
-                <a href="#">Home ></a><span> Issue Log </span>
+                <a href="#">Home ></a><span> Payments </span>
             </section>
             <section class="signout_container">
                 <span class="user_id"> Username </span><a href="#"> Signout</a>
@@ -48,46 +49,22 @@
                 </nav>
             </section>
             <section class="middle_content">
-                <form class="sort_container">
-                    <label>Sort By</label>
-                    <select id="search_form">
-                        <option value="1">Alphabetically</option>
-                        <option value ="2">Date (Oldest) </option>
-                    </select>
-                </form>
-                <div class="information_container">
-                    <section class="issues">
-                        <p>Issue Here</p>
-                        <p>Notes Here</p>
-                        <p>Dates here</p>
-                        <p>Days here</p>
-                        <p>Status</p>
-                        <span>Schedule here</span>
-                    </section>
-                    <section class="issues">
-                        <p>Issue Here</p>
-                        <p>Notes Here</p>
-                        <p>Dates here</p>
-                        <p>Days here</p>
-                        <p>Status</p>
-                        <span>Schedule here</span>
-                    </section>
-                    <section class="issues">
-                        <p>Issue Here</p>
-                        <p>Notes Here</p>
-                        <p>Dates here</p>
-                        <p>Days here</p>
-                        <p>Status</p>
-                        <span>Schedule here</span>
-                    </section>
-                    <section class="issues">
-                        <span>New Issue</span>
-                        <img class="new_issue" src="css/img/plussign.png" alt="plus sign"></img>
-                    </section>
+                <div class="payment_container">
+                    <span class="billing">Billing</span>
+                    <div class="payment_box_container">
+                        <span>----Payment Info----</span>
+                        <label for="credit_card">Credit Card</label>
+                        <input class="creditcard" type="number" id="credit_card"> </input>
+                        <label for="date">EXP</label>
+                        <input class="date" type="number" id="date"></input>
+                        <label for="cvv">CVV</label>
+                        <input class="cvv" type="number" id="cvv"></input>
+                    </div>
+                    <button class="payment_button">Buy Now</button>
                 </div>
             </section>
+            </section>
         </div>
-    </div>
 </body>
 <footer>
     <span>@Copyright 2019 Shaun Kolich and Jamison Blackwell</span>

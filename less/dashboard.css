@@ -184,10 +184,40 @@ textarea {
   height: 900px;
   display: flex;
 }
+.main_container .middle_container .attendance_container {
+  width: 90%;
+  height: 50px;
+  font-size: 14pt;
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.main_container .middle_container .attendance_container #name {
+  margin-left: 100px;
+}
+.main_container .middle_container .info_container {
+  width: 100%;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+.main_container .middle_container .info_container .attendance_items {
+  width: 275px;
+  height: 500px;
+  border: 2px solid lightgrey;
+  overflow-y: scroll;
+  color: blue;
+  font-size: 14pt;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
 .main_container .middle_container .side_navigation {
   width: 15%;
   height: 800px;
   background-color: white;
+  cursor: pointer;
 }
 .main_container .middle_container .side_navigation li {
   text-align: center;
@@ -198,11 +228,105 @@ textarea {
   width: 100%;
   height: 900px;
 }
+.main_container .middle_container .middle_content span {
+  color: blue;
+}
+.main_container .middle_container .middle_content .payment_container {
+  margin-left: 50px;
+  width: 30%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_container .middle_container .middle_content .payment_container .billing {
+  font-size: 25pt;
+}
+.main_container .middle_container .middle_content .payment_container span {
+  font-size: 14pt;
+}
+.main_container .middle_container .middle_content .payment_container .payment_box_container {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(76, 76, 216, 0.9);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+  border: solid 1px rgba(255, 255, 255, 0.15);
+}
+.main_container .middle_container .middle_content .payment_container .payment_box_container span {
+  color: white;
+}
+.main_container .middle_container .middle_content .payment_container .payment_box_container label {
+  color: white;
+  font-size: 14pt;
+}
+.main_container .middle_container .middle_content .payment_container .payment_box_container input {
+  color: blue;
+  font-size: 14pt;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.25em;
+  border: none;
+  border: solid 1px rgba(255, 255, 255, 0.15);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  color: white !important;
+}
+.main_container .middle_container .middle_content .payment_button {
+  margin-top: 20px;
+  height: 60px;
+  width: 200px;
+  transition: border-color 0.2s ease;
+  background-color: #5b5bd6;
+  border: solid 1px !important;
+  border-color: rgba(231, 37, 37, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  line-height: 4.75em;
+  outline: 0;
+  padding: 0 3.75em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.main_container .middle_container .middle_content .payment_button:hover {
+  transition: border-color 0.2s ease;
+  border-color: #e0dcdc !important;
+  background-color: #7070db;
+}
 .main_container .middle_container .sort_container {
   width: 100%;
-  height: 50px;
-  border: 2px solid blue;
+  height: 60px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container .middle_container .sort_container label {
+  color: blue;
+  font-size: 14pt;
+  margin-right: 10px;
+}
+.main_container .middle_container .sort_container #search_form {
+  color: blue;
+  font-size: 14pt;
 }
 .main_container .middle_container .information_container {
   width: 100%;
@@ -214,7 +338,7 @@ textarea {
 .main_container .middle_container .information_container .issues {
   height: 400px;
   width: 400px;
-  border: 2px solid blue;
+  border: 1px solid grey;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -222,18 +346,22 @@ textarea {
   align-items: center;
   margin-left: 20px;
   border-radius: 0.25em;
+  box-shadow: 1px 1px 0px 2px darkgrey;
 }
 .main_container .middle_container .information_container .issues p {
   color: blue;
+  font-size: 14pt;
 }
 .main_container .middle_container .information_container .issues span {
   color: blue;
+  font-size: 14pt;
 }
 .main_container .middle_container .information_container .issues .new_issue {
   height: 100px;
   width: 100px;
 }
 footer {
+  margin-top: 20px;
   width: 100%;
   height: 50px;
   display: flex;
